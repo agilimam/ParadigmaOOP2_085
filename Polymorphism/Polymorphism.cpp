@@ -11,3 +11,13 @@ public:
 	virtual void cetak() {
     }
 };
+
+class joko : public seseorang {
+public:
+	void pesan() {
+		cout << "pesan dari joko" << endl;
+	}
+	void cetak() {
+		cout << "Tulisan Joko" << endl;
+	}
+};
